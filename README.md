@@ -1,6 +1,18 @@
 # Macro-Meter
 
-This project is a computer vision-powered tool that scans plates of food or individual items and estimates the nutrients it contains, including protein, fats, and carbohydrates. With real time feedback paired with an easy-to-use approach, it allows for quick and efficient meal planning for users regardless of backgrounds or goals.
+The Macro Meter is a computer-vision–powered tool that scans full plates or individual food items and estimates their nutritional content, including protein, fats, and carbohydrates. By combining real-time feedback with an intuitive interface, it enables quick, efficient meal planning for users of all backgrounds and goals. A Food101-based model handles food recognition, while a Groq model provides detailed estimates of calories as well as grams of protein, carbohydrates, and fats.
+
+Food recognition model:
+
+     - nateraw/vit-base-food101
+
+Groq model:
+
+     - llama-3.1-8b-instant
+
+Connect Python code to Arduino:
+
+     -Put Python code into Visual Studio Code
 
 Tutorial video posted below
 https://youtu.be/N12vqHPR5U4
