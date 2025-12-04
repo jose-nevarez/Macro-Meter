@@ -9,10 +9,12 @@ Food recognition model:
 Groq model:
 
      - llama-3.1-8b-instant
+     
+Where to get your own API key  https://console.groq.com/keys
 
 Connect Python code to Arduino:
 
      -Put Python code into Visual Studio Code
 
 Tutorial video posted below
-https://youtu.be/N12vqHPR5U4
+https://youtube.com/shorts/lljjmPuSPz8?si=vd2SV4pkQdneEQ17
